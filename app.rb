@@ -9,3 +9,7 @@ artist_repository = ArtistRepository.new
 artist_repository.all.each do |artist|
   p artist
 end
+
+
+artist = artist_repository.find(1)
+puts artist.name
