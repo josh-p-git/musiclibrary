@@ -24,11 +24,11 @@ class Application
 
         if choice == '1' 
             @album_repository.all.each do |record|
-            p record
+            puts "* #{record.id} - #{record.title}"
             end
         else
             @artist_repository.all.each do |record|
-            p record
+            puts "* #{record.id} - #{record.name}"
         end
     end
   end
