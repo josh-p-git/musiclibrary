@@ -11,5 +11,5 @@ artist_repository.all.each do |artist|
 end
 
 
-artist = artist_repository.find(1)
+artist = artist_repository.find(3)
 puts artist.name
